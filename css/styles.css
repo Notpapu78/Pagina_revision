@@ -448,7 +448,7 @@ article p {
 
 }
 
-@media (min-width:1024px) {
+@media (min-width:1024px) and (max-width:1280px) {
     body {
         background-image: url(../img/photo-1550684376-efcbd6e3f031.jpg);
     }
@@ -487,4 +487,5 @@ article p {
     .group p {
         font-size: 3rem;
     }
+
 }
