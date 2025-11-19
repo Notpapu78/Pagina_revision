@@ -322,6 +322,11 @@ article p {
   font-size: 5rem;
 }
 
+.boot {
+    width: 5rem;
+    height: 5rem;
+}
+
 .material-symbols-outlined { /*THIRD icon "drv" */
   font-variation-settings:
   'FILL' 0,
@@ -355,8 +360,8 @@ article p {
     }
 
     h1 u {
-        font-size: 6rem;
-        letter-spacing: 0.2rem;
+        font-size: 7rem;
+        letter-spacing: 0.3rem;
     }
 
     * {
@@ -371,7 +376,7 @@ article p {
     }
 
     .group p {
-        font-size: 2.8rem;
+        font-size: 2.7rem;
     }
 
     header {
@@ -380,7 +385,8 @@ article p {
     }
 
     header img {
-        width: 12rem;
+        width: 14rem;
+        height: auto;
     }
 
     h1 {
@@ -390,32 +396,48 @@ article p {
 
     .material-symbols-outlined { /* HOME */
         color: aqua;
+        font-size: 6rem;
+    }
+
+    .boot { /* SECOND ICON */
+        font-size: 6rem;
     }
 
     .material-symbols-outlined { /* THIRD ICON */
         color: aqua;
+        font-size: 6rem;
     }
 
     .aaa {
         display: flex;
         flex-direction: column;
         margin: 0;
-        gap: 2rem;
+        gap: 3.4rem;
     }
 
     hr {
         width: 46rem;
         height: 0.8rem;
     }
-    
-    .a {
-        width: 10rem;
-        padding: 0.2rem;
+
+    .boot {
+        width: 6rem;
+        height: 6rem;
     }
 
     nav .a p {
-        font-size: 1.5rem;
+        font-size: 2.8rem;
         text-align: center;
+    }
+
+    .aaa {
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        gap: 6rem;
+    }
+
+    .a {
+        padding: 0.3rem 0.4rem 0.3rem;
     }
 
     figcaption {
@@ -436,7 +458,7 @@ article p {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:768px) and (min-width:426px) {
 
     header a img {
         width: 24rem;
