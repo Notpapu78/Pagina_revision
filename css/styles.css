@@ -52,12 +52,21 @@ h2 {
     margin-bottom: 3rem;
 }
 
+h2 span {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 h3 {
     font-family: "Jersey 15", sans-serif;
     letter-spacing: 0.4rem;
     color: var(--color_text);
     font-size: 3.8rem;
     margin-bottom: 2rem;
+}
+
+.ferrite {
+    font-size: 3.8rem;
 }
 
 nav {
@@ -141,7 +150,7 @@ ol {
 
 .colorfondo {
     margin: 8rem 14rem 4rem;
-    padding: 7rem;
+    padding: 6rem;
 }
 
 .container1 {
@@ -187,7 +196,7 @@ article p {
 }
 
 .group {
-    width: 24rem;
+    width: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +214,7 @@ article p {
     align-self: center;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
-    gap: 6.4rem;
+    gap: 8rem;
 }
 
 .jei {
@@ -336,7 +345,7 @@ article p {
 /* END IPORTED ELEMENTS*/ 
   
 
-@media (max-width:360px) {
+@media (max-width:425px) {
     body {
         background-image: url(../img/600px.jpg);
     }
@@ -427,9 +436,107 @@ article p {
     }
 }
 
-@media (max-width:960px) {
+@media (max-width:768px) {
+
+    header a img {
+        width: 24rem;
+        height: 17rem;
+    }
+
+    header h1 {
+        font-size: 10rem;
+    }
+
+    nav {
+        margin: 4.4rem 6rem 3.4rem;
+        padding: 2rem 2rem;
+        gap: 5rem;
+    }
+
+    .a {
+        padding: 0.4rem 0.4rem 0.4rem;
+    }
+
+    .a p {
+        font-size: 2rem;
+    }
+
+    .colorfondo {
+        margin: 6rem 6rem 4rem;
+        padding: 4rem;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure {
+        text-align: center;
+        display: inline-block;
+    }
+
+    article div img {
+        width: 12rem;
+    }
+
+    .min-container {
+        gap: 0.8rem;
+    }
+
+    .group p {
+        font-size: 1.6rem;
+    }
+    
+    .group h3 {
+        font-size: 2.8rem;
+    }
+
+    .group img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .jei {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .journeymap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jade {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:960px) and (min-width:769px) {
     body {
         background-image: url(../img/1024.jpg);
+    }
+
+    header a img {
+        width: 28rem;
+        height: 20rem;
+    }
+
+    h1 u {
+        font-size: 12rem;
+    }
+
+    .aaa {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .a p {
+        font-size: 2.4rem;
     }
 
     nav a span {
@@ -441,19 +548,57 @@ article p {
         flex-direction: column;
     }
     
-    .aaa {
+    article div img {
+        width: 14rem;
+    }
+
+    figure {
         display: flex;
-        justify-content: space-between;
-        margin: 0;
+        text-align: center;
+    }
+
+
+    .min-container {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        gap: 2rem;
+    }
+
+    .colorfondo {
+        margin: 7rem 6rem 4rem;
+        padding: 4rem;
     }
 
     .a {
         padding: 0.8rem;
     }
 
+    .jei {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    .journeymap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+
+    .jade {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+
 }
 
-@media (min-width:1024px) and (max-width:1280px) {
+@media (min-width:1024px) and (max-width:1440px) {
     body {
         background-image: url(../img/photo-1550684376-efcbd6e3f031.jpg);
     }
@@ -476,7 +621,7 @@ article p {
 
     .aaa {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 0;
     }
 
