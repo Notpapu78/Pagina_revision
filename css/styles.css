@@ -32,6 +32,11 @@ header {
     align-items: center;
 }
 
+.img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
 h1 {
     margin: 1rem;
     text-align: center;
@@ -66,7 +71,7 @@ h3 {
 }
 
 .ferrite {
-    font-size: 3.8rem;
+    text-align: center;
 }
 
 nav {
@@ -211,10 +216,10 @@ article p {
 .min-container {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
     align-self: center;
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
-    gap: 8rem;
 }
 
 .jei {
